@@ -1,4 +1,4 @@
-.container{
+/* .container-text{
     display: flex;
     gap: 2em;
     margin-bottom: 5em;
@@ -38,13 +38,14 @@
 .grid-col-3-span{
     grid-column-start: 3;
     
-}
+} */
 
-body{
+ body{
     background-color: beige;
 
 }
-h1{
+
+/* h1{
     color: lightgray;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -52,19 +53,16 @@ h1{
     
 }
 
-img{
+.img-me{
     border-radius: 10%;
-    width: 150px;
+    width: 50px;
     height: 100%;
     margin-right: auto;
     margin-left: auto;
     display: block;
-   
-    
-     
-}
+}  */
 
-#background-arc{
+/* #background-arc{
     height: 150%;
     width: 100%;
     top: 0;
@@ -74,9 +72,9 @@ img{
     border-radius: 50%;
     z-index: -1;
     transform: translate();
-}
+} */
 
-h1:hover{
+/* h1:hover{
     text-shadow: burlywood 2px 3px 5px;
 }
 
@@ -101,4 +99,11 @@ a:visited{
 
 a:hover{
     
-}
+} */
+
+/* .box {
+    background-color: lightblue;
+    border: 1px solid blue;
+    min-height: 50px;
+    font-size: 2rem;
+} */

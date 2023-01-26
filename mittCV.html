@@ -6,23 +6,118 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
 </head>
-<body>
+<body class="bg-dark-subtle">
+
+    <nav class="navbar navbar-expand-md  navbar-dark bg-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand">Tobias Strandh</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse"
+            data-bs-target="#nav" aria-controls="nav" aria-label="Expand Navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="" class="nav-link active"
+                        aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Store</a>
+                    </li>
+                </ul>
+            </div>
+        
+        </div>
+    </nav>    
+
+<!-- <div class="container">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem unde, atque temporibus reiciendis natus ea autem cupiditate. Magni velit incidunt at odit iure earum accusamus voluptatem quidem, facere illum tenetur.
+</div> -->
+
+
+
+<!-- <div class="container">
+    <button class="btn btn-primary" data-bs-toggle="modal"
+    data-bs-target="#modal">Open for info</button>
+
+    <div class="modal fade" id="modal">
+        <div class="modal-dialog modal-dialog-centered">
+¨         <div class="modal-content">
+           <div class="model-header">
+            <h4>BokhandelLabb</h4>
+            <button class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+           <div class="modal-body">Denna labb är en grafisk applikation till en bokhandel där man kan lägga in böcker hos olika butiker. <br>
+            Man kan även lägga till författare och böcker som inte finns hos bokhandelen idag.
+            Applikation använder sig av en SQL-databas. </div>
+
+          </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+<div class="container">
+    <button class="btn btn-primary" data-bs-toggle="collapse"
+    data-bs-target="#row" aria-expanded="false" aria-controls="row">Toggle</button>
+
+    <div class="row collapse" id="row">
+        <div class="col">
+            <div>Denna labb är en grafisk applikation till ett quiz där man först ger quiz ett namn och därefter skapar frågor. <br>
+                Applikation sparar ner allt till JSON filer och sedan hämtar ifrån JSON filer.</div>
+        </div>
+    </div>
+</div> -->
+
+
     <div id="background-arc">
         
     </div>
-    <header>
+    <header style="margin-bottom: 2em; margin-top: 2em; text-align: center;">
         <h1>Tobias Strandh</h1>
     </header>
     
-    <section class="container">
-        <p class="left-right">
-            Mail: Tobias.strandh@iths.se <br>
-    <a href="https://www.linkedin.com/in/tobias-strandh-7992a522a/">Linkedin</a>
-        
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h6>Kontaktuppgifter</h6>
+                <div> Mail: Tobias.Strandh@iths.se</div>
+                <div> <a href="https://www.linkedin.com/in/tobias-strandh-7992a522a/">Linkedin</a></div>
+            </div>
+            <div class="col-6">
+                <p >
+                    Hej! Jag är 23 år gammal och bor på underbara Hisingen!
+                    Jag gillar att chilla och inte göra något alls. <br>
+                    <br> Jag är en duktig utvecklare med starka kunskaper i C#. Jag har en förmåga att snabbt förstå och lösa problem, och min kod är alltid strukturerad och lättläst. <br>
+                    Jag är en nyttig medlem i vilket team som helst och min förmåga att arbeta såväl självständigt som i grupp gör mig till en pålitlig och värdefull medarbetare. <br>
+                    <!-- <br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur ipsam eius nemo assumenda earum, porro voluptates ex nesciunt aliquid ratione dignissimos rem, possimus impedit natus. Eius nemo qui voluptas officia. <br>
+                    <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatem repellendus perspiciatis dolorum labore nemo, voluptate atque in laborum repellat, aut enim laudantium fuga fugit dolor adipisci debitis ratione ducimus? <br>
+                     -->
+                </p>
+            </div>
+            <div class="col" >
+                <img class="img-fluid" src="mig2.png" alt="En bild på en ung och snygg karl">
+            </div>
+        </div>
+    </div>
 
-        <p class="special-text">
-            Hej! Jag är 23 år gammal och bor på underbara Hisingen! <br>
+    <!-- <section class="d-flex">
+        <div class="card" style="max-height: 100px; min-width: 170px;" >
+           <h6 class="card-title">Kontaktuppgifter</h6>
+           <div class="card-subtitle">Mail: Tobias.Strandh@iths.se</div>
+           <div class="card-subtitle"> <a href="https://www.linkedin.com/in/tobias-strandh-7992a522a/">Linkedin</a></div>
+        </div>
+        
+       </div>
+    
+        <p >
+            Hej! Jag är 23 år gammal och bor på underbara Hisingen!
             Jag gillar att chilla och inte göra något alls. <br>
             <br> Jag är en duktig utvecklare med starka kunskaper i C#. Jag har en förmåga att snabbt förstå och lösa problem, och min kod är alltid strukturerad och lättläst. <br>
             Jag är en nyttig medlem i vilket team som helst och min förmåga att arbeta såväl självständigt som i grupp gör mig till en pålitlig och värdefull medarbetare. <br>
@@ -30,12 +125,72 @@
             <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatem repellendus perspiciatis dolorum labore nemo, voluptate atque in laborum repellat, aut enim laudantium fuga fugit dolor adipisci debitis ratione ducimus? <br>
             
         </p>
+        </p>
+            
     
-        <img class="left-right" src="mig2.png" alt="En bild på en ung och snygg karl">
+        <img class="left-right img-me" src="mig2.png" alt="En bild på en ung och snygg karl">
         
-    </section>
+    </section>  -->
 
-    <div class="container-grid">
+    <div class="container">
+     <div class="card-group">
+        <div class="card" >
+            <img src="labb2Db.png" alt="Bild på appen" style="width: 100%;">
+            <div class="card-body">
+                <div class="card-title"><a href="https://github.com/ITHS-gbg/labb-2-databaser-tobiasstrandh" alt="Labb 2 Databaser">BokhandelLabb</a></div> 
+                <div class="container">
+    <button class="btn btn-primary" data-bs-toggle="modal"
+    data-bs-target="#modal">Open for info</button>
+
+    <div class="modal fade" id="modal">
+        <div class="modal-dialog modal-dialog-centered">
+¨         <div class="modal-content">
+           <div class="model-header">
+            <h4>BokhandelLabb</h4>
+            <button class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+           <div class="modal-body">Denna labb är en grafisk applikation till en bokhandel där man kan lägga in böcker hos olika butiker. <br>
+            Man kan även lägga till författare och böcker som inte finns hos bokhandelen idag.
+            Applikation använder sig av en SQL-databas. </div>
+            
+          </div>
+        </div>
+    </div>
+
+</div>
+            </div>
+         </div>
+         <div class="card" >
+            <img src="labb2Db.png" alt="Bild på appen" style="width: 100%;">
+            <div class="card-body">
+                <div class="card-title"><a href="https://github.com/ITHS-gbg/labb-3-databaser-tobiasstrandh" alt="Labb 3 Databaser">QuizLabbDatabaser</a></div> 
+                <div class="card-text">
+                    Denna labb är en grafisk applikation till ett quiz där man lägger till frågor i en frågebank. <br>
+                    Man kan skapa quiz med frågorna ifrån frågebanken. Applikation använder sig av en MongoDb-databas.
+                </div>
+            </div>
+         </div>
+         <div class="card" >
+            <img src="labb2Db.png" alt="Bild på appen" style="width: 100%;">
+            <div class="card-body">
+                <div class="card-title"><a href="https://github.com/ITHS-gbg/labb-3-tobiasstrandh" alt="Labb 3 C#">QuizLabbC#</a></div> 
+                <div class="card-text">
+                    <button class="btn btn-primary" data-bs-toggle="collapse"
+    data-bs-target="#row" aria-expanded="false" aria-controls="row">Toggle</button>
+
+    <div class="row collapse" id="row">
+        <div class="col">
+            <div>Denna labb är en grafisk applikation till ett quiz där man först ger quiz ett namn och därefter skapar frågor. <br>
+                Applikation sparar ner allt till JSON filer och sedan hämtar ifrån JSON filer.</div>
+        </div>
+    </div>
+                </div>
+            </div>
+         </div>
+     </div>
+    </div>
+
+    <!-- <div class="container-grid">
         <div class="grid-col-1-span">
             <a href="https://github.com/ITHS-gbg/labb-2-databaser-tobiasstrandh" alt="Labb 2 Databaser">BokhandelLabb</a>
             <p>Denna labb är en grafisk applikation till en bokhandel där man kan lägga in böcker hos olika butiker. <br>
@@ -53,7 +208,7 @@
             <p>Denna labb är en grafisk applikation till ett quiz där man först ger quiz ett namn och därefter skapar frågor. <br>
                Applikation sparar ner allt till JSON filer och sedan hämtar ifrån JSON filer.</p>
         </div>
-    </div>
+    </div> -->
 
 </body>
 </html>
