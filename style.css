@@ -1,5 +1,22 @@
 .container{
     display: flex;
+    gap: 2em
+}
+
+
+.left-right{
+    flex: 10%;
+}
+
+.container-flexbox{
+    display: flex;
+    gap: 5em;
+    margin-top: 3em;
+}
+
+.container-flexbox > *{
+    flex: 1
+    
 }
 
 body{
@@ -16,12 +33,12 @@ h1{
 
 img{
     border-radius: 10%;
-    width: 100px;
+    width: 150px;
     height: 100%;
     margin-right: auto;
     margin-left: auto;
     display: block;
-    flex: 10%;
+   
     
      
 }
@@ -46,15 +63,15 @@ img:hover{
     box-shadow: burlywood 5px 4px 10px
 }
 .special-text{
-   color: black; 
-   font-family: cursive;
-   padding-left: 10px;
-   padding-right: 10px;
+   text-align: center;
+   
+  
 }
 
 .adress-text{
     color: black; 
-    font-family: cursive;
+    
+   
  }
 
 a:visited{
