@@ -1,0 +1,66 @@
+.container{
+    display: flex;
+}
+
+body{
+    background-color: beige;
+
+}
+h1{
+    color: lightgray;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    
+}
+
+img{
+    border-radius: 10%;
+    width: 100px;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    flex: 10%;
+    
+     
+}
+
+#background-arc{
+    height: 150%;
+    width: 100%;
+    top: 0;
+    left: -50%;
+    background-color: burlywood;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    transform: translate();
+}
+
+h1:hover{
+    text-shadow: burlywood 2px 3px 5px;
+}
+
+img:hover{
+    box-shadow: burlywood 5px 4px 10px
+}
+.special-text{
+   color: black; 
+   font-family: cursive;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.adress-text{
+    color: black; 
+    font-family: cursive;
+ }
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    
+}
